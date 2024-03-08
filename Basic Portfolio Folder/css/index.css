@@ -1,0 +1,49 @@
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: #1a253a;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & .main-intro h1 {
+    font-size: 96px;
+    line-height: 106px;
+  }
+
+  & p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  a {
+    margin-top: 30px;
+    font-size: 18px;
+    display: block;
+    background-color: var(--site-color-01);
+    padding: 10px 20px;
+    width: fit-content;
+    text-decoration: none;
+  }
+
+  & .main-quotes p {
+    border-left: 4px solid var(--site-color-01);
+    padding-left: 20px;
+    margin: 40px 0;
+
+    &:nth-child(2) {
+      margin-left: 100px;
+    }
+  }
+
+  & .main-intro {
+    position: relative;
+    right: 15vh;
+  }
+
+  & .main-quotes {
+    position: relative;
+    left: 10vh;
+  }
+}
