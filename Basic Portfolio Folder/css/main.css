@@ -152,3 +152,86 @@ a {
     }
   }
 }
+
+/* footer */
+
+.footer-main {
+  width: 100%;
+  padding: 60px 0 100px;
+  background-color: #141414;
+
+  & .footer-main-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    & .footer-testimoni {
+      flex-basis: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      & img {
+        width: 50%;
+        /* border-radius: 100px; */
+      }
+
+      & p {
+        text-align: center;
+        font-size: 16px;
+        padding: 20px 20px 0;
+      }
+    }
+  }
+
+  & .footer-getintouch {
+    padding: 10px 20px;
+    margin: 40px 0 60px;
+    border: 2px solid #fff;
+    font-weight: 600;
+    transition: all ease-in-out 200ms;
+
+    &:hover {
+      border: 2px solid var(--site-color-01);
+    }
+  }
+
+  & .footer-sitemap {
+    flex-basis: 100%;
+    display: flex;
+
+    & a {
+      line-height: 30px;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    & ul:nth-child(1) {
+      border-left: 4px solid var(--site-color-01);
+      padding-left: 20px;
+    }
+
+    & :is(ul:nth-child(1), ul:nth-child(2)) {
+      flex-basis: 180px;
+    }
+
+    & ul:nth-child(3) {
+      flex-basis: 340px;
+    }
+
+    & ul:nth-child(4) {
+      flex-grow: 1;
+
+      & p {
+        text-align: right;
+      }
+    }
+
+    & p {
+      text-transform: uppercase;
+    }
+  }
+}
