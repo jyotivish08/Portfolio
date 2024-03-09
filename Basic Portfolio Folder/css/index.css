@@ -8,7 +8,7 @@ main {
   align-items: center;
 
   & .main-intro h1 {
-    font-size: 96px;
+    font-size: 80px;
     line-height: 106px;
   }
 
@@ -39,7 +39,7 @@ main {
 
   & .main-intro {
     position: relative;
-    right: 15vh;
+    right: 10vh;
   }
 
   & .main-quotes {
@@ -85,7 +85,7 @@ main {
       left: 0;
       bottom: 0;
       right: 0;
-      background-color: #000;
+      background-color: #1a253a;
       opacity: 0.5;
       transition: all ease-in-out 200ms;
     }
@@ -116,6 +116,84 @@ main {
 
     &:nth-child(5) {
       background-image: url(../image/photoshop.jpg);
+    }
+  }
+}
+
+/* about section */
+
+.index-about {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #1a253a;
+
+  & .index-about-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+  }
+
+  & .index-about-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+  }
+
+  & .index-about-text {
+    flex-basis: 455px;
+
+    & p {
+      padding: 20px 0;
+    }
+
+    & a {
+      font-size: 18px;
+      display: block;
+      background-color: var(--site-color-01);
+      padding: 10px 20px;
+      width: fit-content;
+      text-decoration: none;
+
+      &:hover {
+        background-color: var(--site-color-01-hover);
+      }
+    }
+  }
+
+  & .index-about-skill {
+    flex-basis: 350px;
+
+    & .index-about-skill-bar {
+      width: calc(100%-8px);
+      height: 20px;
+      border: 4px solid #0b0f16;
+
+      & .index-about-skill-bar-fill {
+        width: 100%;
+        height: 100%;
+        background-color: var(--site-color-01);
+      }
+
+      & .htmlcss {
+        width: 95%;
+      }
+
+      & .js {
+        width: 80%;
+      }
+      & .ps {
+        width: 70%;
+      }
+      & .ai {
+        width: 90%;
+      }
+      & .ae {
+        width: 70%;
+      }
+      & .pr {
+        width: 85%;
+      }
     }
   }
 }
