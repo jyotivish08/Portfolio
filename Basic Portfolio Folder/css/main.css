@@ -5,6 +5,10 @@
   --site-color-01-hover: #9e2f6e;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: #1e1e1e;
 }
@@ -24,8 +28,8 @@ body::after {
 }
 
 h1 {
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 2.6rem;
+  line-height: 1.5;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -33,16 +37,16 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 2.8rem;
+  line-height: 1.5;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
 h3 {
-  font-size: 26px;
-  line-height: 32px;
+  font-size: 2.6rem;
+  line-height: 1.5;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -50,14 +54,14 @@ h3 {
 }
 
 p {
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 1.4rem;
+  line-height: 1.75;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 18px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -80,10 +84,10 @@ a {
   width: fit-content;
   height: 100%;
   display: flex;
-  padding-left: 60px;
+  padding-left: 6rem;
 
   & img {
-    height: 40px;
+    height: 4rem;
     align-self: center;
   }
 }
@@ -94,7 +98,7 @@ a {
 
   & ul {
     list-style: none;
-    margin-left: 30px;
+    margin-left: 3rem;
 
     & li {
       display: inline;
@@ -107,7 +111,7 @@ a {
         text-decoration: none;
         color: black;
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 1.6rem;
         font-weight: 700;
         display: block;
         height: 100%;
@@ -179,7 +183,7 @@ a {
 
       & p {
         text-align: center;
-        font-size: 16px;
+        font-size: 1.6rem;
         padding: 20px 20px 0;
       }
     }
