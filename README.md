@@ -1,2 +1,2 @@
 # Portfolio
-this is simple basic portfolio, anhjkmnjbhyone can takebgvtyhujkl an example f nhghjkgbhjvghbjnmnm bhjnkrom this and cxvcdxsdfghjndfgthjkanghjkx make por vgbhjntfoliooonbjk.
+this is simple basic portfolio, anhjkmnjbhyone can takebgvtyhujkl an example f nhghjkgbhjvghbjnmnm bhjnkrom this and cxvcdgvhjkmxsdfghjndfgthjkanghjkx make por vgbhjntfoliooonbjk.
